@@ -9,7 +9,7 @@ DOCS = HERE.parent.joinpath("docs").resolve()
 
 def main():
     content = """
-    <p>Unnoficial reference for the Google Product Taxonomy.</p>
+    <p>Unofficial reference for the Google Product Taxonomy.</p>
 
     <p> Based on  Google_Product_Taxonomy_Version: 2021-09-21 <p>
 
@@ -96,7 +96,7 @@ def get_product_df_from_language_code(code="en-GB"):
     df["description"] = [a.replace(">", "-", 1).strip() for a in df["description"]]
 
     labels = []
-    for i, row in df.iterrows():
+    for index, row in df.iterrows():
         for i in range(7, 0, -1):
             row_name = f"cat_{str(i)}"
 

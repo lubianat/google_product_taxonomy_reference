@@ -1,6 +1,6 @@
 # google product taxonomy reference
 
-Unnoficial reference to the Google Product Taxonomy
+Unofficial reference to the Google Product Taxonomy
 
 # How to use
 
