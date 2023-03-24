@@ -1,4 +1,4 @@
-# google_product_taxonomy_reference
+# google product taxonomy reference
 
 Unnoficial reference to the Google Product Taxonomy
 
